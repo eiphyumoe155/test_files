@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Clsm/Documents/GitHub/test_files/ML%20flow/mlruns/276320175705054537/e5c0e112df7143b48e4e1837b48b3f90/artifacts
+end_time: 1679989636835
+entry_point_name: ''
+experiment_id: '276320175705054537'
+lifecycle_stage: active
+run_id: e5c0e112df7143b48e4e1837b48b3f90
+run_name: nervous-boar-422
+run_uuid: e5c0e112df7143b48e4e1837b48b3f90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679989375347
+status: 4
+tags: []
+user_id: Clsm

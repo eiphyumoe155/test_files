@@ -1,0 +1,57 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 100, 100, 3)]     0         
+                                                                 
+ block1_conv1 (Conv2D)       (None, 100, 100, 64)      1792      
+                                                                 
+ block1_conv2 (Conv2D)       (None, 100, 100, 64)      36928     
+                                                                 
+ block1_pool (MaxPooling2D)  (None, 50, 50, 64)        0         
+                                                                 
+ block2_conv1 (Conv2D)       (None, 50, 50, 128)       73856     
+                                                                 
+ block2_conv2 (Conv2D)       (None, 50, 50, 128)       147584    
+                                                                 
+ block2_pool (MaxPooling2D)  (None, 25, 25, 128)       0         
+                                                                 
+ block3_conv1 (Conv2D)       (None, 25, 25, 256)       295168    
+                                                                 
+ block3_conv2 (Conv2D)       (None, 25, 25, 256)       590080    
+                                                                 
+ block3_conv3 (Conv2D)       (None, 25, 25, 256)       590080    
+                                                                 
+ block3_conv4 (Conv2D)       (None, 25, 25, 256)       590080    
+                                                                 
+ block3_pool (MaxPooling2D)  (None, 12, 12, 256)       0         
+                                                                 
+ block4_conv1 (Conv2D)       (None, 12, 12, 512)       1180160   
+                                                                 
+ block4_conv2 (Conv2D)       (None, 12, 12, 512)       2359808   
+                                                                 
+ block4_conv3 (Conv2D)       (None, 12, 12, 512)       2359808   
+                                                                 
+ block4_conv4 (Conv2D)       (None, 12, 12, 512)       2359808   
+                                                                 
+ block4_pool (MaxPooling2D)  (None, 6, 6, 512)         0         
+                                                                 
+ block5_conv1 (Conv2D)       (None, 6, 6, 512)         2359808   
+                                                                 
+ block5_conv2 (Conv2D)       (None, 6, 6, 512)         2359808   
+                                                                 
+ block5_conv3 (Conv2D)       (None, 6, 6, 512)         2359808   
+                                                                 
+ block5_conv4 (Conv2D)       (None, 6, 6, 512)         2359808   
+                                                                 
+ block5_pool (MaxPooling2D)  (None, 3, 3, 512)         0         
+                                                                 
+ flatten (Flatten)           (None, 4608)              0         
+                                                                 
+ dense (Dense)               (None, 10)                46090     
+                                                                 
+=================================================================
+Total params: 20,070,474
+Trainable params: 46,090
+Non-trainable params: 20,024,384
+_________________________________________________________________

@@ -1,0 +1,11 @@
+artifact_path: fruits-model_test
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.0
+mlflow_version: 2.0.1
+model_uuid: 812f2a5c5b624c119e18409df9b8f0c8
+run_id: 9822f5d718d246ac8f9bf733f0154299
+utc_time_created: '2023-03-16 09:28:30.817315'

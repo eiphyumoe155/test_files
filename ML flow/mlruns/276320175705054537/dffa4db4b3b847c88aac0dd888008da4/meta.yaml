@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Clsm/Documents/GitHub/test_files/ML%20flow/mlruns/276320175705054537/dffa4db4b3b847c88aac0dd888008da4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '276320175705054537'
+lifecycle_stage: active
+run_id: dffa4db4b3b847c88aac0dd888008da4
+run_name: monumental-hog-665
+run_uuid: dffa4db4b3b847c88aac0dd888008da4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679989801941
+status: 1
+tags: []
+user_id: Clsm
